@@ -1,0 +1,101 @@
+﻿<!--
+	Add the xml in this file to the end of the xml for "File Layout"
+	<?xml version="1.0" encoding="utf-16"?>
+	<Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
+		<TypePattern DisplayName="COM interfaces or structs">
+			...
+		</TypePattern>
+		<TypePattern DisplayName="NUnit Test Fixtures" RemoveRegions="All">
+			...
+		</TypePattern>
+		<TypePattern DisplayName="Default Pattern">
+			...
+		</TypePattern>
+		- Add the xml here
+	</Patterns>
+-->
+	<TypePattern DisplayName="Hans Kindberg" Priority="150">
+		<Region Name="Delegates">
+			<Entry DisplayName="Delegates">
+				<Entry.Match>
+					<Kind Is="Delegate" />
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Fields">
+			<Entry DisplayName="Fields">
+				<Entry.Match>
+					<Or>
+						<Kind Is="Constant" />
+						<Kind Is="Field" />
+					</Or>
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Constructors">
+			<Entry DisplayName="Constructors">
+				<Entry.Match>
+					<Kind Is="Constructor" />
+				</Entry.Match>
+				<Entry.SortBy>
+					<Static />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Events">
+			<Entry DisplayName="Events">
+				<Entry.Match>
+					<Kind Is="Event" />
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Properties">
+			<Entry DisplayName="Properties">
+				<Entry.Match>
+					<Or>
+						<Kind Is="Indexer" />
+						<Kind Is="Property" />
+					</Or>
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Methods">
+			<Entry DisplayName="Methods">
+				<Entry.Match>
+					<Kind Is="Method" />
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Other members">
+			<Entry DisplayName="Other members">
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+		<Region Name="Nested types">
+			<Entry DisplayName="Type">
+				<Entry.Match>
+					<Kind Is="Type" />
+				</Entry.Match>
+				<Entry.SortBy>
+					<Name Is="Enter Pattern Here" />
+				</Entry.SortBy>
+			</Entry>
+		</Region>
+	</TypePattern>

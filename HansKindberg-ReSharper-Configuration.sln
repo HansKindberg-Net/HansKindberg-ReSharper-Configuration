@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{408449FD-E1A5-4BE9-A39B-DC05E076DB82}"
+	ProjectSection(SolutionItems) = preProject
+		HansKindberg-C#-FileLayout.xml = HansKindberg-C#-FileLayout.xml
+		HansKindberg-CodeStyle-CodeCleanup.DotSettings = HansKindberg-CodeStyle-CodeCleanup.DotSettings
+		HansKindberg-CodeStyle-CodeFormatting.DotSettings = HansKindberg-CodeStyle-CodeFormatting.DotSettings
+		HansKindberg-CodeStyle-CSharpFileLayoutPatterns.DotSettings = HansKindberg-CodeStyle-CSharpFileLayoutPatterns.DotSettings
+		HansKindberg-CodeStyle.DotSettings = HansKindberg-CodeStyle.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{2CA3140F-ADD1-47B6-B374-C26CFB4DB5C5}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
