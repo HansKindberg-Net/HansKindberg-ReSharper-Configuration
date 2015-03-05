@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{408449FD
 		HansKindberg-CodeStyle-CodeCleanup.DotSettings = HansKindberg-CodeStyle-CodeCleanup.DotSettings
 		HansKindberg-CodeStyle-CodeFormatting.DotSettings = HansKindberg-CodeStyle-CodeFormatting.DotSettings
 		HansKindberg-CodeStyle-CSharpFileLayoutPatterns.DotSettings = HansKindberg-CodeStyle-CSharpFileLayoutPatterns.DotSettings
+		HansKindberg-CodeStyle-Naming.DotSettings = HansKindberg-CodeStyle-Naming.DotSettings
 		HansKindberg-CodeStyle.DotSettings = HansKindberg-CodeStyle.DotSettings
 	EndProjectSection
 EndProject
